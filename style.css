@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(/fonts/Roboto/Roboto-Regular.ttf);
+ }
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+    font-size: 1rem;
+    font-family: Roboto-Regular;
+}
+main{
+    width:900px;
+    height: 1000px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(2, 2, 22);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+aside{
+    float: left;
+    background-color:rgb(236, 113, 41);
+    padding: 5rem;
+    color: white;
+    margin-top: 150px;
+    height: 935px;
+    border-radius: 100px 0 0 0px;
+}
+.header{
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 3rem;
+    width: 600px;
+    margin-left: 300px;
+    
+}
+.header h1{
+    color: rgb(236, 113, 41);
+    margin-left: 30%;
+    
+    font-size: 3rem;
+}
+.header p{
+    color: rgb(3, 3, 43);
+margin-left: 30%;
+font-family: Roboto-Regular;
+font-size: 1em;
+}
+.profile{
+   background-color: white;
+   padding: 20px;
+   margin-bottom: 1rem;
+   
+}
+.profile-header{
+    margin-top: 4rem;
+    margin-left: 50%;
+    border-bottom: 9px solid rgb(236, 113, 41);
+    width:90px;
+    padding-bottom: 2rem;
+   
+}
+.profile p{
+    margin-left: 48%;
+    padding: 2rem;
+}
+
+.profile-2{
+    background-color: white;
+    padding: 20px;
+    height: 280px;
+ }
+ .profile-2 p{
+    margin-left: 48%;
+    padding: 2rem;
+ }
+.skill{
+    background: white;
+
+}
+.skill-header{
+    margin-left: 50%;
+    border-bottom: 9px solid rgb(236, 113, 41);
+    width:90px;
+    padding-bottom: 1.2rem;
+}
+ul{
+    margin-left: 50%;
+    margin-top: 2rem;
+}
+li{
+    padding: 0.5rem;
+    /* margin-top: 2rem; */
+}
+
+  
+.info-heading {
+font-size: 1rem;
+border-bottom:9px solid rgb(3, 3, 43);
+width: 50px;
+padding-bottom: 1rem;
+margin-top: 2rem;
+}
+.mobile{
+    margin-top: 1.2rem;
+}
+.info-p{
+  padding-top:  2rem;
+  font-size:1.5rem;
+  color: #cdcdcd;
+}
